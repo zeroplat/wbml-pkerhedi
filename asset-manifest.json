@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3ff8ad7.css",
+    "main.js": "/static/js/main.f3060118.js",
+    "static/js/453.5fc7f1f4.chunk.js": "/static/js/453.5fc7f1f4.chunk.js",
+    "static/media/hobspot-loader.webp": "/static/media/hobspot-loader.b653093eceea45b8803d.webp",
+    "index.html": "/index.html",
+    "main.b3ff8ad7.css.map": "/static/css/main.b3ff8ad7.css.map",
+    "main.f3060118.js.map": "/static/js/main.f3060118.js.map",
+    "453.5fc7f1f4.chunk.js.map": "/static/js/453.5fc7f1f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3ff8ad7.css",
+    "static/js/main.f3060118.js"
+  ]
+}
