@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { 
+  // lazy
+ } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Loader from './Loader/Loader';
 import reportWebVitals from './reportWebVitals';
+// import Kungfu from './Kungfu';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const Mega = lazy(() => import('./Kungfu'));
+
+const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <React.Suspense fallback={<Loader />}>
+      <App />
+    </React.Suspense>
   </React.StrictMode>
 );
 
